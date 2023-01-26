@@ -1,0 +1,80 @@
+header{
+    width: 130%;
+    height: 320px;
+    background: url(../ex05/img/03.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.head_container{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 18px;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+header h2{
+    text-align: center;
+    margin-top: 90px;
+    color: aquamarine;
+}
+
+.container{
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+}
+
+.item01{
+    width: 70%;
+}
+
+.item02 h2{
+    text-align: center;
+    border-bottom: 1px solid navy;
+}
+
+.item01 img{
+    width: 99%;
+}
+
+.item02{
+    width: 22%;
+}
+
+.item02 h2{
+    font-size: 17px;
+    text-align: center;
+}
+
+.item02 ul{
+    list-style-type: none;
+    
+}
+
+.item02 li{
+    border-bottom: 1px dotted black;
+}
+
+footer{
+    width: 100%;
+    background-color: orange;
+    margin: 0px;
+    padding: 30px 0px;
+
+}
+
+footer h2{
+    text-align: center;
+}
